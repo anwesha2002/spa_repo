@@ -1,0 +1,123 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	background-color: #ff3e;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+header img
+{
+	width:auto;
+	height: 90px;
+	margin-left:1%;
+	float: left;
+	margin: 0;
+	
+}
+header
+{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 5px 30px 5px 0;
+	position: fixed;
+}
+#menu li
+{
+	list-style: none;
+	margin: 20px;
+	display: inline-block;
+	
+}
+#menu li a
+{
+	text-decoration: none;
+	font-size: 30px;
+	color: #fff;
+}
+section
+{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#header-right
+{
+	display:flex;
+	flex-direction: column;
+	
+}
+.icon
+{
+	color: #fff;
+	font-size: 1.5rem;
+	margin: 10px 30px 0 0;
+	float: right;
+	
+}
+#face, #insta, #twit
+{
+	float: right;
+	padding:  0 10px 0 0;
+	
+}
+#face a, #insta a, #twit a
+{
+	color: #fff;
+}
+.icon i:hover{
+	color:#d9072b;
+}
+h1
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+}
+#home
+{
+	background: #726a95;
+	z-index: 99999;
+}
+#about
+{
+	background: #709fb0;
+	
+}
+#product
+{
+	background: #edc988;
+}
+#service
+{
+	background: #de4463
+}
+#contact
+{
+	background: #821752;
+}
+.fa-circle-arrow-up
+{
+	left: 95%;
+	top: 90%;
+	font-size: 50px;
+	position: fixed;
+	z-index: 9999;
+	opacity: 0.3;
+	color: #fff;
+	
+}
